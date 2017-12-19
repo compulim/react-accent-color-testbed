@@ -17,6 +17,6 @@ class MyButton extends React.Component {
   }
 }
 
-export default withPalette(palette => ({
+export default withPalette(({ palette }) => ({
   css: CSS(palette)
 }))(MyButton)
